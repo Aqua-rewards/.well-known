@@ -3,7 +3,7 @@ URI_REQUEST_SIGNING_KEY="GCTBATCNXTDRHDRBJ2PZREPN5GNCI5GVZUNF6CQ22LZVF2TIFXQ5V4X
 SIGNING_KEY = "GCTBATCNXTDRHDRBJ2PZREPN5GNCI5GVZUNF6CQ22LZVF2TIFXQ5V4XF"
 FEDERATION_SERVER="https://api.scopuly.com/federation"
 WEB_AUTH_ENDPOINT = "https://apidev.scopuly.com/auth"
-TRANSFER_SERVER = "https://apidev.scopuly.com/sep6"
+# TRANSFER_SERVER = "https://apidev.scopuly.com/sep6"
 
 
 ACCOUNTS=[
@@ -22,7 +22,7 @@ ORG_OFFICIAL_EMAIL="info@scopuly.com"
 [[CURRENCIES]]
 code="SCOP"
 name="Scopuly"
-issuer="GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ"
+issuer="GBG35LS6GFWPZRC2T7O2FGXO2KQRQYLF5237YDWXXRFZRQHDKRP6EM3J"
 desc="SCOP is an access, liquidity and rewards token. SCOP is a high APY yield token from +10% to +14% APY rewards holders, liquidity providers, traders and contributes to the development of the Scopuly ecosystem. Earn interest on your SCOP simply by holding tokens in your balance. Compound interest payments every 24 hours. More details: https://scop.scopuly.com. Telegram: @scopuly"
 conditions="Total issued 10B SCOP. Further emission is not possible."
 image="https://scopuly.com/img/logo/icon.png"
@@ -32,7 +32,7 @@ fixed_number=10000000000
 
 [[CURRENCIES]]
 code="SKY"
-issuer="GB2WB73G5IWRXEUTJANAIF52JFTDXOXORAP4S5HZRW23TZG2ONDVZMVA"
+issuer="GCTBATCNXTDRHDRBJ2PZREPN5GNCI5GVZUNF6CQ22LZVF2TIFXQ5V4XF"
 display_decimals=7
 name="Loyalty Token"
 desc="SKY is a built-in crypto asset of the Scopuly platform. The token is used in the system for: paying off fees; loyalty program; payments; voting and other purposes. The use of the SKY token will grow as the Scopuly platform evolves."
