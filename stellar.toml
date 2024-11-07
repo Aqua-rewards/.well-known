@@ -1,0 +1,42 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+URI_REQUEST_SIGNING_KEY="GCTBATCNXTDRHDRBJ2PZREPN5GNCI5GVZUNF6CQ22LZVF2TIFXQ5V4XF"
+SIGNING_KEY = "GCTBATCNXTDRHDRBJ2PZREPN5GNCI5GVZUNF6CQ22LZVF2TIFXQ5V4XF"
+FEDERATION_SERVER="https://api.scopuly.com/federation"
+WEB_AUTH_ENDPOINT = "https://apidev.scopuly.com/auth"
+TRANSFER_SERVER = "https://apidev.scopuly.com/sep6"
+
+
+ACCOUNTS=[
+"GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ",
+"GCTBATCNXTDRHDRBJ2PZREPN5GNCI5GVZUNF6CQ22LZVF2TIFXQ5V4XF"]
+
+[DOCUMENTATION]
+ORG_NAME="Scopuly"
+ORG_URL="https://scopuly.com"
+ORG_LOGO="https://scopuly.com/img/logo/500x200.png"
+ORG_DESCRIPTION="Scopuly - Stellar Wallet & SDEX. A simple and secure cross-platform Stellar wallet that gives you the most complete control over your Stellar account. In Scopuly, you can: securely store and transfer crypto assets; make cross-border multicurrency payments; buy / sell crypto for fiat; issue your own tokens and trade on the SDEX decentralized exchange in real time with no fees. Scopuly is the perfect way to decentralize, store, manage, invest, trade, pay and move crypto assets."
+ORG_TWITTER="https://twitter.com/Scopuly"
+ORG_GITHUB="https://github.com/Scopuly"
+ORG_OFFICIAL_EMAIL="info@scopuly.com"
+
+[[CURRENCIES]]
+code="SCOP"
+name="Scopuly"
+issuer="GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ"
+desc="SCOP is an access, liquidity and rewards token. SCOP is a high APY yield token from +10% to +14% APY rewards holders, liquidity providers, traders and contributes to the development of the Scopuly ecosystem. Earn interest on your SCOP simply by holding tokens in your balance. Compound interest payments every 24 hours. More details: https://scop.scopuly.com. Telegram: @scopuly"
+conditions="Total issued 10B SCOP. Further emission is not possible."
+image="https://scopuly.com/img/logo/icon.png"
+status="live"
+display_decimals=7
+fixed_number=10000000000
+
+[[CURRENCIES]]
+code="SKY"
+issuer="GB2WB73G5IWRXEUTJANAIF52JFTDXOXORAP4S5HZRW23TZG2ONDVZMVA"
+display_decimals=7
+name="Loyalty Token"
+desc="SKY is a built-in crypto asset of the Scopuly platform. The token is used in the system for: paying off fees; loyalty program; payments; voting and other purposes. The use of the SKY token will grow as the Scopuly platform evolves."
+conditions="Total issued 10B SKY. Further emission is not possible."
+image="https://scopuly.com/img/logo/icon-sky.png"
+status="live"
+fixed_number=10000000000
